@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="@drawable/gym">
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/barbellbacksquat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="Squats are king because they're the most challenging leg movement you can do. They work all the lower-body musculature and have been shown to spike muscle-building hormone release. In fact, squatting before doing curls has even been shown to significantly improve arm strength! Don't laugh: Powerlifter and bodybuilder Layne Norton, Ph.D., pairs the two moves in his Legs and Arms Blast workout.
+High bar or low bar? That's up to you and your goals. High bar, where the bar rests atop the traps, hits all the leg musculature fairly evenly. Low bar, a favorite of powerlifters, targets the glutes and allows you to lift more weight. Not sure which? Choose the variation that allows you to squat deeper, more comfortably, and without excessively rounding your back.
+For leg growth, do this movement first with several light warm-up sets, pyramiding up in weight, before attempting your heaviest weight for multiple sets. Classic rep schemes like 5x5 or 3x8-10 work great. Don't be afraid to belt up if you're going heavy."/>
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/split"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="Done right, split squats—particularly rear-foot-elevated or Bulgarian split squats—are devastating to your legs. In fact, EMG evidence suggests that 4 sets using your 10-rep max with Bulgarians create similar quad activation to back squats. The same study also found similar testosterone responses between Bulgarians and back squats!
+Nevertheless, split squats are deceptively difficult, partly because of balance and partly because you're training one side at a time. And when you raise your rear foot in a so-called Bulgarian split squat, everything gets tougher. If balance is holding you back, you can just drop your back foot, hold onto a stable object, or even perform them in the Smith machine.
+ These work best toward the middle of a leg session. Do 3-4 sets of 8-12 reps per leg, and go for close to muscular failure on each set. If you really want to bring up the intensity, try bodyweight Bulgarians with blood flow restriction (BFR)."/>
+
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/hacksquat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="A knock against machine-based leg exercises is that the hormone boost they generate just doesn't compare to free weights. But that's not a reason not to do them! It just means do them later in your leg workout when you're already fatigued.
+One of the primary benefits of the hack squat is that you can manipulate foot placement, which is why fitness model Julian The Quad Guy Smith considers them one of his signature moves for legs. A high placement allows you to descend farther, which emphasizes the glutes and hamstrings. A lower placement means the quads take up a greater percentage of the workload.
+It's also easier to use advanced intensity techniques like forced reps and dropsets, because you can change weight quickly and aren't balancing a barbell.
+Hack squats are typically done after free-weight exercises and before single-joint leg movements. The sweet spot is somewhere around 3 sets of 8-12 reps, although if you're following a program built by a hack devotee like Kris Gethin in his 8-Week Hardcore training plan, you can expect that to go up to 20-30 reps and beyond. Consider yourself warned!"/>
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/legpress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="Leg press vs. squat is a classic weight-room debate, but one that misses the point. Strength coach and physical therapist John Rusin explains why in his article, Dont Do High-Rep Squats, Deads, and Bench! Do These Instead. Squats are for doing early in a leg workout and going heavy, he explains, and leg presses are for doing afterward for high reps. Sounds like a recipe for leg growth to us!
+Like hack squats, the leg press allows for a variety of foot positions to target the outer quads, inner quads, glutes, or hamstrings. Just be careful not to lower the sled too far! This common mistake will lift your glutes up off the butt pad and cause your lower spine to curl. A rounded back puts you at risk for an injury.
+You can't go wrong with 3-4 sets of 8-12 reps. Occasionally, when the pre-workout is flowing, do a few epic sets of 20-30 reps or more. This exercise also goes exceptionally well with intensity-boosting techniques such as rest-pause, dropsets, or forced reps."/>
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

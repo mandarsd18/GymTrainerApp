@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gym"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Bench Press"
+                android:textColor="#434040"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="419dp"
+                android:layout_height="300dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/dumbbell_bench_press_header" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sure, we just talked about branching out beyond the bench press. But you can't avoid the exercise if you're serious about training—or even if you just step foot into any typical strength facility in the world. The move is standard for a reason: it works. Let's break it down with dumbbells for some variety. Do it: This hypertrophy method means you're more focused on building muscle than pressing max weight, so keep your butt on the bench, with your feet flat on the floor and your glutes and core engaged. You should also drive your shoulder blades down into the bench. Lift your dumbbells up, squeezing the handles tightly. Once your back is on the bench, don't just hold the weights with your elbows parallel to your shoulders. Keep your elbows at a 45-degree angle to help to keep your shoulders safe. Squeeze your chest to drive the weight up, then lower under control under the same path to just above your chest. Drive back up to hit another rep. "
+                android:textColor="#212121"
+                android:textSize="17sp"/>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="419dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/incllinepushup"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The basic incline pushup is done using a bench, table, or another solid surface that is about 3 feet high. Here's how to do this style correctly:
+
+Stand facing the bench, table, or the edge of a bed.
+Place your hands on the edge of the bench just slightly wider than shoulder width. Your arms are straight but elbows are not locked. Align your feet so that your arms and body are completely straight.
+Bend your elbows to slowly lower your chest to the edge of the bench while inhaling. Keep your body straight and rigid throughout the movement.
+Push your body away from the bench until your elbows are extended, but not locked. Exhale as you push up.
+Keep going with slow, steady repetitions."
+                android:textColor="#212121"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="419dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/dip1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="usually dips are done on a dip bar, with the exerciser's hands supporting their entire body weight. For added resistance, weights can be added by use of a dip belt, weighted vest, or by wearing a backpack with weights in it. A dumbbell may also be held between the knees or ankles. For less resistance, an assisted dip/pull-up machine can be used which reduces the force necessary for the exerciser to elevate their body by use of a counterweight. One may also use resistance bands hooked under their feet to help if they lack the strength to properly perform a dip.[3]
+
+Another variation of the dip is done on gymnastic rings. Similar to a bar dip, the exerciser hand's grasps the rings, supporting their entire body weight. The unsteady nature of the rings adds additional challenge, although there are variations to make the exercise easier.[4]
+
+In the absence of equipment, a lighter variation of the dip can be performed called the Bench Dip. The hands are placed on one bench directly underneath the shoulders or on two parallel benches.[5] The legs are straightened and positioned horizontally; the feet rest on another bench in front of the exerciser. This variation trains the upper body muscles in a similar though not exact manner as the normal dip, whilst reducing the total weight lifted by a significant amount. This exercise can be done also off of the edge of a sofa, a kitchen counter, or any surface that supports the lifter. It should be done under control."
+                android:textColor="#212121"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="419dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/chestfly"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#212121"
+                android:text="The dumbbell chest fly can help open up your chest muscles. Chest openers may help reduce upper back pain, increase range of motion, and reduce tightness in the upper body.If you’re doing dumbbell chest flies as a way to open up your chest muscles, consider using lighter weights, or even no weights. That can help you to get the full range of motion from the move without overextending. Extending too far may lead to an injury.Scapular retraction exercises may help improve posture and help you gain strength in the shoulder region.Performing chest dumbbell flies a few times a week may help open up the chest and shoulder region and help with shoulder retraction."/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

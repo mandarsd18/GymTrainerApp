@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/gym"
+    >
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/barbell"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="The barbell curl is a classic biceps-builder. This exercise targets the biceps and can add serious size and strength to the entire muscle when done correctly. You can curl more weight with the barbell curl than other curl variations as you’re lifting a singular implement with both hands. It’s also straightforward to do. Simply load up a barbell, hold it in both hands, and lift it towards your chin. Rinse and repeat.Grab a barbell with an underhand grip, slightly wider than the shoulders. With the chest up and shoulder blades pulled tightly together, expose the front of your biceps by pulling the shoulders back into the socket. The elbows should reside under the shoulder joint, or slightly in front by the ribs. Curl the barbell up using the biceps, making sure not to let the torso lean forward, shoulder collapse forward, or the elbows slide backward to the side of the body (they should stay slightly in front of the shoulders).
+"/>
+
+        <ImageView
+            android:layout_width="409dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/chinup" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#212121"
+            android:text="The chin-up is a bodyweight exercise that can induce serious muscle growth of the biceps (and back) with nothing but a pull-up bar. If you have a door-mounted pull-up bar in your home gym, then that’s all you need to bang out sets of chin-ups. Since the lifter pulls their own bodyweight, the biceps are usually exposed to loads heavier than one can lift with a barbell. However, lifters may often perform these incorrectly, engaging their shoulder and grip musclesHang from a bar with palms facing you and the hands about shoulder-width apart, or slightly wider. From a dead hang, squeeze your shoulder blades together and pull your body up, making sure not to let the body fold inwards (so many people do this) until your chin is at or above the bar."/>
+
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/prechercurl"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="Curling on a preacher bench lengthens the exercise’s range of motion. As a result, the biceps will be under tension for a longer period of time, which usually equates to more muscle growth. Using an EZ-bar, which turns the hands inwards, makes the move more comfortable on the wrists and shifts the angle of the exercise to target different muscle fibers in the biceps
+Sit down on a preacher bench and rest the back of your triceps on the pad. Set your body in the same position as the standard barbell biceps curl (chest up, shoulders back, and elbows slightly forward). Grasp the EZ-bar handle on the inner angled pieces. This will place your hands slightly narrower than shoulder-width and on a semi-supinated angle. With the body locked in place, curl the bar upwards as you flex the biceps, briefly pausing at the top of the curl to flex the biceps. Lower the weight under control."/>
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/concentrationcur"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:text="The concentration curl is all about feeling your biceps work. You sit down on a bench, rest your elbow on the inside of your thigh, and curl a dumbbell from full extension to contraction. Lifting with one arm at a time means you’re doing more overall work — so you’ll burn more calories and allow your weaker arm to play catch up. Also, the isolated curling position really lets you hone in on your biceps as you curl a light dumbbell.
+Sit on a bench with your feet set wide enough to allow your arm to hang in the middle, with your elbow resting on the inside of the thigh. With a dumbbell in hand, slowly curl the dumbbell upward at a controlled tempo, concentrating on contracting the biceps to move the load. At the top of the movement, flex as hard as possible, then slowly lower the load. The key is not to lose tension on the biceps at any point in the range of motion."/>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
